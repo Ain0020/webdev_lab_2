@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information Table</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed; /* This ensures that all columns have the same width */
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        word-wrap: break-word; /* This will prevent the text from overflowing */
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .longRow {
+        height: 50px; /* This will make the specified rows longer */
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <td>Your Name</td>
+        <td rowspan="4"><img src="your-photo-url.jpg" alt="Your Photo" style="width:100px;height:150px;"></td>
+    </tr>
+    <tr>
+        <th>Date of birth</th>
+        <td>Your Date of Birth</td>
+    </tr>
+    <tr>
+        <th>Religion</th>
+        <td>Your Religion</td>
+    </tr>
+    <tr>
+        <th>Race</th>
+        <td>Your Race</td>
+    </tr>
+    <tr>
+        <th rowspan="4">Address</th>
+        <td>Street</td>
+        <td>Your Street</td>
+    </tr>
+    <tr>
+        <td>Town</td>
+        <td>Your Town</td>
+    </tr>
+    <tr>
+        <td>District</td>
+        <td>Your District</td>
+    </tr>
+    <tr>
+        <td>State</td>
+        <td>Your State</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Contact</th>
+        <td>Mobile Phone</td>
+        <td>Your Mobile Phone</td>
+    </tr>
+    <tr>
+        <td>Social Media</td>
+        <td>Your Social Media</td>
+    </tr>
+    <tr>
+        <td>Website</td>
+        <td>Your Website</td>
+    </tr>
+     <tr class="longRow" style="width = 100px">
+         <td>Course and Institution</td>
+         <td> FSKTM, UTHM</td>
+     </tr>
+      <tr class="longRow">
+                <td>Programming Skills</td>
+                <td> HTML, JAVA, C++</td>
+            </tr>
+            <tr class="longRow">
+                <td>Personal Interest</td>
+                <td>  </td>
+            </tr>
+            <tr>
+                <td>Plan in 2024</td>
+                <td> </td>
+            </tr>
+</table>
+
+</body>
+</html>
